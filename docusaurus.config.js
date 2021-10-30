@@ -80,7 +80,7 @@ const config = {
             label: 'अन्य',
           },
           // {to: '/blog', label: 'गतिविधि', position: 'right'},
-          // {to: '/me', label: 'परिचय', position: 'right'},
+          {to: '/me', label: 'परिचय', position: 'right'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
