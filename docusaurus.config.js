@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'भजन एवं आरती संग्रह',
-  tagline: 'भक्ति घर में आपका स्वागत है',
-  url: 'https://your-docusaurus-test-site.com',
+  title: '✍ श्रीमती लीला खत्री की कलम से',
+  tagline: 'भजन भक्ति माला में आपका स्वागत है',
+  url: 'https://bhaktighar.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,7 +38,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -139,6 +138,14 @@ const config = {
         //   src: 'img/logo.svg',
         // },
       },
+      googleAnalytics: {
+        trackingID: 'UA-211677200-1',
+        anonymizeIP: true, 
+      },
+      // algolia: {
+      //   apiKey: 'd31e33c561de4ba2c3828547c90db518',
+      //   indexName: 'mithunkhatri',
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
