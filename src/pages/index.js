@@ -19,9 +19,9 @@ function HomepageHeader() {
 जीवन में ईमानदारी, कठोर परिश्रम एवं निःस्वार्थ भाव से लोक मंगल के लिए समर्पित भाव के साथ कार्य करने का संस्कार बचपन में आपने दिया, वो आपके त्याग, समर्पण और प्रेम का ही परिणाम है। मैं अपने माता-पिता को कोटि-कोटि नमन करते हुए उन्हें यह भजन भक्ति माला का संकलन श्रद्धा-सुमन के रूप में समर्पित करती हूं।
           </p>
           <br/>
-          <p>
-          <h2>✍</h2> <strong>श्रीमती लीला खत्री की कलम से</strong>
-          </p>
+          {/* <p>
+           <h1><strong>भजन भक्ति माला</strong></h1>
+          </p> */}
           
           {/* <Link
             className="button button--secondary button--lg"
@@ -38,7 +38,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={`भजन भक्ति माला`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
