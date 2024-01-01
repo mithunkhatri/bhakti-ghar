@@ -34,6 +34,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleAnalytics: {
+          trackingID: 'UA-211677200-1',
+          anonymizeIP: true, 
+        }
       }),
     ],
   ],
@@ -136,10 +140,6 @@ const config = {
         // logo: {
         //   src: 'img/logo.svg',
         // },
-      },
-      googleAnalytics: {
-        trackingID: 'UA-211677200-1',
-        anonymizeIP: true, 
       },
       // algolia: {
       //   apiKey: 'd31e33c561de4ba2c3828547c90db518',
